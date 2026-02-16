@@ -1,0 +1,22 @@
+appId: com.oneclickinstall
+productName: OneClickInstall
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - out/**/*
+  - resources/**/*
+  - package.json
+win:
+  target:
+    - nsis
+mac:
+  target:
+    - dmg
+    - pkg
+  category: public.app-category.utilities
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  shortcutName: Universal Installer

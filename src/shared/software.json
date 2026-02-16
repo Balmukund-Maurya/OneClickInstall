@@ -1,0 +1,2753 @@
+{
+  "software": [
+    {
+      "id": "1password",
+      "name": "1Password",
+      "category": "Security",
+      "size": "110 MB",
+      "description": "Password manager, digital wallet, and more.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "AgileBits.1Password",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "AgileBits.1Password",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "1password"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "1password"
+          ]
+        }
+      }
+    },
+    {
+      "id": "affinity-designer",
+      "name": "Affinity Designer",
+      "category": "Design",
+      "size": "425 MB",
+      "description": "Professional graphic design software.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "affinity-designer"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "affinity-designer"
+          ]
+        }
+      }
+    },
+    {
+      "id": "affinity-photo",
+      "name": "Affinity Photo",
+      "category": "Design",
+      "size": "440 MB",
+      "description": "Professional photo editing software.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "affinity-photo"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "affinity-photo"
+          ]
+        }
+      }
+    },
+    {
+      "id": "alfred",
+      "name": "Alfred",
+      "category": "Productivity",
+      "size": "12 MB",
+      "description": "Award-winning app for macOS that boosts productivity.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "alfred"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "alfred"
+          ]
+        }
+      }
+    },
+    {
+      "id": "amphetamine",
+      "name": "Amphetamine",
+      "category": "Utilities",
+      "size": "15 MB",
+      "description": "Powerful keep-awake utility with advanced features.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "amphetamine"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "amphetamine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "android-studio",
+      "name": "Android Studio",
+      "category": "Development",
+      "size": "1.2 GB",
+      "description": "Official IDE for Android app development.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "android-studio"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "android-studio"
+          ]
+        }
+      }
+    },
+    {
+      "id": "anydesk",
+      "name": "AnyDesk",
+      "category": "Utilities",
+      "size": "12 MB",
+      "description": "Fast remote desktop software.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "anydesk"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "anydesk"
+          ]
+        }
+      }
+    },
+    {
+      "id": "appcleaner",
+      "name": "AppCleaner",
+      "category": "Productivity",
+      "size": "5 MB",
+      "description": "Small application to thoroughly uninstall unwanted apps.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "appcleaner"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "appcleaner"
+          ]
+        }
+      }
+    },
+    {
+      "id": "atom",
+      "name": "Atom",
+      "category": "Development",
+      "size": "270 MB",
+      "description": "Hackable text editor for the 21st Century.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "atom"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "atom"
+          ]
+        }
+      }
+    },
+    {
+      "id": "audacity",
+      "name": "Audacity",
+      "category": "Media",
+      "size": "38 MB",
+      "description": "Free, open source, cross-platform audio software.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Audacity.Audacity",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Audacity.Audacity",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "audacity"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "audacity"
+          ]
+        }
+      }
+    },
+    {
+      "id": "balenaetcher",
+      "name": "Balena Etcher",
+      "category": "Utilities",
+      "size": "135 MB",
+      "description": "Flash OS images to SD cards & USB drives, safely and easily.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "balenaetcher"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "balenaetcher"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bettertouchtool",
+      "name": "BetterTouchTool",
+      "category": "Productivity",
+      "size": "35 MB",
+      "description": "Customize input devices with gestures and shortcuts.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "bettertouchtool"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "bettertouchtool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bitwarden",
+      "name": "Bitwarden",
+      "category": "Security",
+      "size": "75 MB",
+      "description": "Open source password management solutions for individuals and teams.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Bitwarden.Bitwarden",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Bitwarden.Bitwarden",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "bitwarden"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "bitwarden"
+          ]
+        }
+      }
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "category": "Design",
+      "size": "450 MB",
+      "description": "Free and open source 3D creation suite.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "BlenderFoundation.Blender",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "BlenderFoundation.Blender",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "blender"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "blender"
+          ]
+        }
+      }
+    },
+    {
+      "id": "brave-browser",
+      "name": "Brave Browser",
+      "category": "Browsers",
+      "size": "280 MB",
+      "description": "Secure, fast & privacy-focused web browser with ad blocking.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "brave-browser"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "brave-browser"
+          ]
+        }
+      }
+    },
+    {
+      "id": "caffeine",
+      "name": "Caffeine",
+      "category": "Utilities",
+      "size": "2 MB",
+      "description": "Prevent your Mac from going to sleep.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "caffeine"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "caffeine"
+          ]
+        }
+      }
+    },
+    {
+      "id": "cyberduck",
+      "name": "Cyberduck",
+      "category": "Utilities",
+      "size": "120 MB",
+      "description": "Libre server and cloud storage browser.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Cyberduck.Cyberduck",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Cyberduck.Cyberduck",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "cyberduck"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "cyberduck"
+          ]
+        }
+      }
+    },
+    {
+      "id": "datagrip",
+      "name": "DataGrip",
+      "category": "Development",
+      "size": "580 MB",
+      "description": "Powerful database IDE from JetBrains.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "datagrip"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "datagrip"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dbeaver",
+      "name": "DBeaver Community",
+      "category": "Development",
+      "size": "160 MB",
+      "description": "Universal database tool for developers and SQL programmers.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "dbeaver.dbeaver",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "dbeaver.dbeaver",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "dbeaver-community"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "dbeaver-community"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dbeaver-community",
+      "name": "DBeaver CE",
+      "category": "Development",
+      "size": "240 MB",
+      "description": "Universal database tool for developers and DBAs.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "dbeaver-community"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "dbeaver-community"
+          ]
+        }
+      }
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "category": "Communication",
+      "description": "Voice, video, and text communication service.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Discord.Discord",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Discord.Discord",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "discord"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "discord"
+          ]
+        }
+      }
+    },
+    {
+      "id": "elmedia-player",
+      "name": "Elmedia Player",
+      "category": "Media",
+      "size": "92 MB",
+      "description": "Free media player for Mac supporting various formats.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "elmedia-player"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "elmedia-player"
+          ]
+        }
+      }
+    },
+    {
+      "id": "epic-games",
+      "name": "Epic Games Launcher",
+      "category": "Gaming",
+      "size": "580 MB",
+      "description": "Digital storefront for PC and Mac.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "EpicGames.EpicGamesLauncher",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "EpicGames.EpicGamesLauncher",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "epic-games"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "epic-games"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evernote",
+      "name": "Evernote",
+      "category": "Productivity",
+      "size": "210 MB",
+      "description": "Notes, organizer, and planner.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Evernote.Evernote",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Evernote.Evernote",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "evernote"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "evernote"
+          ]
+        }
+      }
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "category": "Design",
+      "size": "95 MB",
+      "description": "Collaborative interface design tool.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Figma.Figma",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Figma.Figma",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "figma"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "figma"
+          ]
+        }
+      }
+    },
+    {
+      "id": "firefox",
+      "name": "Mozilla Firefox",
+      "category": "Browsers",
+      "size": "125 MB",
+      "description": "Free and open-source web browser.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Mozilla.Firefox",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Mozilla.Firefox",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "firefox"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "firefox"
+          ]
+        }
+      }
+    },
+    {
+      "id": "flux",
+      "name": "Flux",
+      "category": "Utilities",
+      "size": "1 MB",
+      "description": "Adjust screen color temperature based on time of day.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "flux"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "flux"
+          ]
+        }
+      }
+    },
+    {
+      "id": "gimp",
+      "name": "GIMP",
+      "category": "Design",
+      "size": "240 MB",
+      "description": "GNU Image Manipulation Program.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "GIMP.GIMP",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "GIMP.GIMP",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "gimp"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "gimp"
+          ]
+        }
+      }
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "category": "Development",
+      "size": "45 MB",
+      "description": "Distributed version control system.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Git.Git",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Git.Git",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "git"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "git"
+          ]
+        }
+      }
+    },
+    {
+      "id": "github-desktop",
+      "name": "GitHub Desktop",
+      "category": "Development",
+      "size": "115 MB",
+      "description": "Open source GUI for GitHub.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "GitHub.GitHubDesktop",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "GitHub.GitHubDesktop",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "github"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "github"
+          ]
+        }
+      }
+    },
+    {
+      "id": "google-chrome",
+      "name": "Google Chrome",
+      "category": "Browsers",
+      "size": "320 MB",
+      "description": "Fast, secure, and free web browser.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Google.Chrome",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Google.Chrome",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "google-chrome"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "google-chrome"
+          ]
+        }
+      }
+    },
+    {
+      "id": "handbrake",
+      "name": "HandBrake",
+      "category": "Media",
+      "size": "32 MB",
+      "description": "The open source video transcoder.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "HandBrake.HandBrake",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "HandBrake.HandBrake",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "handbrake"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "handbrake"
+          ]
+        }
+      }
+    },
+    {
+      "id": "iina",
+      "name": "IINA",
+      "category": "Media",
+      "size": "68 MB",
+      "description": "Modern media player for macOS with beautiful UI.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "iina"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "iina"
+          ]
+        }
+      }
+    },
+    {
+      "id": "imageoptim",
+      "name": "ImageOptim",
+      "category": "Design",
+      "size": "12 MB",
+      "description": "Removes bloated metadata and compresses images without losing quality.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "imageoptim"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "imageoptim"
+          ]
+        }
+      }
+    },
+    {
+      "id": "inkscape",
+      "name": "Inkscape",
+      "category": "Design",
+      "size": "180 MB",
+      "description": "Professional vector graphics editor.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Inkscape.Inkscape",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Inkscape.Inkscape",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "inkscape"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "inkscape"
+          ]
+        }
+      }
+    },
+    {
+      "id": "insomnia",
+      "name": "Insomnia",
+      "category": "Development",
+      "size": "125 MB",
+      "description": "Design and test GraphQL and REST APIs.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "insomnia"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "insomnia"
+          ]
+        }
+      }
+    },
+    {
+      "id": "intellij-idea-ce",
+      "name": "IntelliJ IDEA CE",
+      "category": "Development",
+      "size": "850 MB",
+      "description": "The leading Java and Kotlin IDE.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "JetBrains.IntelliJIDEA.Community",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "JetBrains.IntelliJIDEA.Community",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "intellij-idea-ce"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "intellij-idea-ce"
+          ]
+        }
+      }
+    },
+    {
+      "id": "iterm2",
+      "name": "iTerm2",
+      "category": "Development",
+      "size": "42 MB",
+      "description": "macOS terminal replacement with powerful features.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "iterm2"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "iterm2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "itsycal",
+      "name": "Itsycal",
+      "category": "Utilities",
+      "size": "3 MB",
+      "description": "Tiny menu bar calendar.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "itsycal"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "itsycal"
+          ]
+        }
+      }
+    },
+    {
+      "id": "karabiner-elements",
+      "name": "Karabiner Elements",
+      "category": "Productivity",
+      "size": "22 MB",
+      "description": "Powerful keyboard customizer for macOS.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "karabiner-elements"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "karabiner-elements"
+          ]
+        }
+      }
+    },
+    {
+      "id": "keepassxc",
+      "name": "KeePassXC",
+      "category": "Security",
+      "size": "45 MB",
+      "description": "Cross-platform community-driven port of KeePass Password Safe.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "KeePassXC.KeePassXC",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "KeePassXC.KeePassXC",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "keepassxc"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "keepassxc"
+          ]
+        }
+      }
+    },
+    {
+      "id": "keka",
+      "name": "Keka",
+      "category": "Utilities",
+      "size": "24 MB",
+      "description": "File archiver for macOS with compression and encryption.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "keka"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "keka"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kodi",
+      "name": "Kodi",
+      "category": "Media",
+      "size": "125 MB",
+      "description": "Open source home theater software.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "kodi"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "kodi"
+          ]
+        }
+      }
+    },
+    {
+      "id": "krita",
+      "name": "Krita",
+      "category": "Design",
+      "size": "210 MB",
+      "description": "Free and open source digital painting software.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "KritaFoundation.Krita",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "KritaFoundation.Krita",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "krita"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "krita"
+          ]
+        }
+      }
+    },
+    {
+      "id": "macs-fan-control",
+      "name": "Macs Fan Control",
+      "category": "Productivity",
+      "size": "18 MB",
+      "description": "Monitor and control fans on Mac computers.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "macs-fan-control"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "macs-fan-control"
+          ]
+        }
+      }
+    },
+    {
+      "id": "moom",
+      "name": "Moom",
+      "category": "Utilities",
+      "size": "8 MB",
+      "description": "Move and zoom windows with ease.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "moom"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "moom"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mp3tag",
+      "name": "Mp3tag",
+      "category": "Media",
+      "size": "14 MB",
+      "description": "Powerful and easy-to-use tool to edit metadata of audio files.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "mp3tag"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "mp3tag"
+          ]
+        }
+      }
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "category": "Productivity",
+      "size": "130 MB",
+      "description": "Your connected workspace for wiki, docs & projects.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Notion.Notion",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Notion.Notion",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "notion"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "notion"
+          ]
+        }
+      }
+    },
+    {
+      "id": "obs-studio",
+      "name": "OBS Studio",
+      "category": "Media",
+      "size": "190 MB",
+      "description": "Software for video recording and live streaming.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "OBSProject.OBSStudio",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "OBSProject.OBSStudio",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "obs"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "obs"
+          ]
+        }
+      }
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "category": "Productivity",
+      "size": "110 MB",
+      "description": "Powerful knowledge base that works on local Markdown files.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Obsidian.Obsidian",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Obsidian.Obsidian",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "obsidian"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "obsidian"
+          ]
+        }
+      }
+    },
+    {
+      "id": "onenote",
+      "name": "Microsoft OneNote",
+      "category": "Productivity",
+      "size": "185 MB",
+      "description": "Digital notebook for organizing notes and information.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "onenote"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "onenote"
+          ]
+        }
+      }
+    },
+    {
+      "id": "opera",
+      "name": "Opera",
+      "category": "Browsers",
+      "size": "130 MB",
+      "description": "Fast and multi-functional web browser.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Opera.Opera",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Opera.Opera",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "opera"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "opera"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pdf-expert",
+      "name": "PDF Expert",
+      "category": "Productivity",
+      "size": "95 MB",
+      "description": "Fast, robust and beautiful PDF editor.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "pdf-expert"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "pdf-expert"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pixelmator-pro",
+      "name": "Pixelmator Pro",
+      "category": "Design",
+      "size": "265 MB",
+      "description": "Powerful image editor designed exclusively for Mac.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "pixelmator-pro"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "pixelmator-pro"
+          ]
+        }
+      }
+    },
+    {
+      "id": "plex",
+      "name": "Plex",
+      "category": "Media",
+      "size": "180 MB",
+      "description": "Stream your media library to any device.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "plex"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "plex"
+          ]
+        }
+      }
+    },
+    {
+      "id": "postman",
+      "name": "Postman",
+      "category": "Development",
+      "size": "140 MB",
+      "description": "API development environment.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Postman.Postman",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Postman.Postman",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "postman"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "postman"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pycharm-ce",
+      "name": "PyCharm CE",
+      "category": "Development",
+      "size": "720 MB",
+      "description": "The Python IDE for professional developers.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "JetBrains.PyCharm.Community",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "JetBrains.PyCharm.Community",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "pycharm-ce"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "pycharm-ce"
+          ]
+        }
+      }
+    },
+    {
+      "id": "qbittorrent",
+      "name": "qBittorrent",
+      "category": "Media",
+      "size": "35 MB",
+      "description": "Free and reliable P2P BitTorrent client.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "qbittorrent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "qbittorrent"
+          ]
+        }
+      }
+    },
+    {
+      "id": "rectangle",
+      "name": "Rectangle",
+      "category": "Productivity",
+      "size": "8 MB",
+      "description": "Move and resize windows using keyboard shortcuts or snap areas.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "rectangle"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "rectangle"
+          ]
+        }
+      }
+    },
+    {
+      "id": "shotcut",
+      "name": "Shotcut",
+      "category": "Media",
+      "size": "185 MB",
+      "description": "Free, open source, cross-platform video editor.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "shotcut"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "shotcut"
+          ]
+        }
+      }
+    },
+    {
+      "id": "signal",
+      "name": "Signal",
+      "category": "Communication",
+      "size": "140 MB",
+      "description": "Cross-platform centralized encrypted messaging service.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "OpenWhisperSystems.Signal",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "OpenWhisperSystems.Signal",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "signal"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "signal"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch",
+      "category": "Design",
+      "size": "95 MB",
+      "description": "Professional digital design app for Mac.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "sketch"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "sketch"
+          ]
+        }
+      }
+    },
+    {
+      "id": "skype",
+      "name": "Skype",
+      "category": "Communication",
+      "size": "125 MB",
+      "description": "Telecommunications application that specializes in providing video chat.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Microsoft.Skype",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Microsoft.Skype",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "skype"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "skype"
+          ]
+        }
+      }
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "category": "Productivity",
+      "size": "185 MB",
+      "description": "Team communication platform.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "SlackTechnologies.Slack",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "SlackTechnologies.Slack",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "slack"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "slack"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sourcetree",
+      "name": "Sourcetree",
+      "category": "Development",
+      "size": "175 MB",
+      "description": "Free Git GUI for Mac and Windows.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "sourcetree"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "sourcetree"
+          ]
+        }
+      }
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "category": "Media",
+      "size": "120 MB",
+      "description": "Digital music service.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Spotify.Spotify",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Spotify.Spotify",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "spotify"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "spotify"
+          ]
+        }
+      }
+    },
+    {
+      "id": "stats",
+      "name": "Stats",
+      "category": "Utilities",
+      "size": "12 MB",
+      "description": "macOS system monitor in your menu bar.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "stats"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "stats"
+          ]
+        }
+      }
+    },
+    {
+      "id": "steam",
+      "name": "Steam",
+      "category": "Gaming",
+      "size": "420 MB",
+      "description": "Video game digital distribution service.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Valve.Steam",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Valve.Steam",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "steam"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "steam"
+          ]
+        }
+      }
+    },
+    {
+      "id": "sublime-text",
+      "name": "Sublime Text",
+      "category": "Development",
+      "size": "45 MB",
+      "description": "A sophisticated text editor for code, markup and prose.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "SublimeHQ.SublimeText.4",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "SublimeHQ.SublimeText.4",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "sublime-text"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "sublime-text"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tableplus",
+      "name": "TablePlus",
+      "category": "Development",
+      "size": "85 MB",
+      "description": "Modern, native database management tool.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "tableplus"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "tableplus"
+          ]
+        }
+      }
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram Desktop",
+      "category": "Communication",
+      "size": "110 MB",
+      "description": "A cloud-based mobile and desktop messaging app.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Telegram.TelegramDesktop",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Telegram.TelegramDesktop",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "telegram"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "telegram"
+          ]
+        }
+      }
+    },
+    {
+      "id": "the-unarchiver",
+      "name": "The Unarchiver / 7-Zip",
+      "category": "Utilities",
+      "size": "12 MB",
+      "description": "Essential utilities for opening compressed files.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "7zip.7zip",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "7zip.7zip",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "the-unarchiver"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "the-unarchiver"
+          ]
+        }
+      }
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "category": "Productivity",
+      "size": "105 MB",
+      "description": "Simple yet powerful to-do list and task manager.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "todoist"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "todoist"
+          ]
+        }
+      }
+    },
+    {
+      "id": "transmission",
+      "name": "Transmission",
+      "category": "Media",
+      "size": "22 MB",
+      "description": "Fast, easy, free BitTorrent client.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "transmission"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "transmission"
+          ]
+        }
+      }
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "category": "Productivity",
+      "size": "120 MB",
+      "description": "Collaborative project management with boards and cards.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "trello"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "trello"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unity-hub",
+      "name": "Unity Hub",
+      "category": "Development",
+      "size": "140 MB",
+      "description": "Management tool for Unity projects and installations.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Unity.UnityHub",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Unity.UnityHub",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "unity-hub"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "unity-hub"
+          ]
+        }
+      }
+    },
+    {
+      "id": "visual-studio-code",
+      "name": "VS Code",
+      "category": "Development",
+      "size": "210 MB",
+      "description": "Code editing. Redefined.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "Microsoft.VisualStudioCode",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "Microsoft.VisualStudioCode",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "visual-studio-code"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "visual-studio-code"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vivaldi",
+      "name": "Vivaldi",
+      "category": "Browsers",
+      "size": "240 MB",
+      "description": "Powerful, personal and private web browser.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "vivaldi"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "vivaldi"
+          ]
+        }
+      }
+    },
+    {
+      "id": "vlc",
+      "name": "VLC",
+      "category": "Media",
+      "size": "48 MB",
+      "description": "Multi-platform media player.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "VideoLAN.VLC",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "VideoLAN.VLC",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "vlc"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "vlc"
+          ]
+        }
+      }
+    },
+    {
+      "id": "webstorm",
+      "name": "WebStorm",
+      "category": "Development",
+      "size": "615 MB",
+      "description": "Smart JavaScript IDE from JetBrains.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "webstorm"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "webstorm"
+          ]
+        }
+      }
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "category": "Communication",
+      "size": "120 MB",
+      "description": "Simple, reliable, private messaging and calling.",
+      "platforms": {
+        "win32": {
+          "pm": "winget",
+          "args": [
+            "install",
+            "--id",
+            "WhatsApp.WhatsApp",
+            "--silent"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--id",
+            "WhatsApp.WhatsApp",
+            "--silent"
+          ]
+        },
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "whatsapp"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "whatsapp"
+          ]
+        }
+      }
+    },
+    {
+      "id": "xnviewmp",
+      "name": "XnViewMP",
+      "category": "Design",
+      "size": "55 MB",
+      "description": "Versatile image viewer, browser and converter.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "xnviewmp"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "xnviewmp"
+          ]
+        }
+      }
+    },
+    {
+      "id": "warp",
+      "name": "Warp",
+      "category": "Development",
+      "description": "The terminal for the 21st century.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "warp"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "warp"
+          ]
+        }
+      }
+    },
+    {
+      "id": "raycast",
+      "name": "Raycast",
+      "category": "Productivity",
+      "description": "Blazingly fast, extensible launcher.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "raycast"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "raycast"
+          ]
+        }
+      }
+    },
+    {
+      "id": "logseq",
+      "name": "Logseq",
+      "category": "Productivity",
+      "description": "A privacy-first, open-source knowledge base.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "logseq"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "logseq"
+          ]
+        }
+      }
+    },
+    {
+      "id": "linear",
+      "name": "Linear",
+      "category": "Productivity",
+      "description": "The issue tracking tool you'll enjoy using.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "linear-linear"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "linear-linear"
+          ]
+        }
+      }
+    },
+    {
+      "id": "alttab",
+      "name": "AltTab",
+      "category": "Utilities",
+      "description": "Windows alt-tab on macOS.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "alt-tab"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "alt-tab"
+          ]
+        }
+      }
+    },
+    {
+      "id": "onyx",
+      "name": "OnyX",
+      "category": "Utilities",
+      "description": "Multifunction utility for macOS.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "onyx"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "onyx"
+          ]
+        }
+      }
+    },
+    {
+      "id": "tor-browser",
+      "name": "Tor Browser",
+      "category": "Browsers",
+      "description": "Protect your privacy and defend yourself against network surveillance.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "tor-browser"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "tor-browser"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mattermost",
+      "name": "Mattermost",
+      "category": "Communication",
+      "description": "Open source Slack alternative.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "mattermost"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "mattermost"
+          ]
+        }
+      }
+    },
+    {
+      "id": "lunacy",
+      "name": "Lunacy",
+      "category": "Design",
+      "description": "Free design software for Win, Mac, and Linux.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "lunacy"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "lunacy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "category": "Development",
+      "description": "High-performance, multiplayer code editor.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "zed"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "zed"
+          ]
+        }
+      }
+    },
+    {
+      "id": "shottr",
+      "name": "Shottr",
+      "category": "Utilities",
+      "description": "Pixel-perfect screenshot tool.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "shottr"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "shottr"
+          ]
+        }
+      }
+    },
+    {
+      "id": "monitorcontrol",
+      "name": "MonitorControl",
+      "category": "Utilities",
+      "description": "Controls your external display brightness and volume.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "monitorcontrol"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "monitorcontrol"
+          ]
+        }
+      }
+    },
+    {
+      "id": "maccy",
+      "name": "Maccy",
+      "category": "Utilities",
+      "description": "Lightweight clipboard manager.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "maccy"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "maccy"
+          ]
+        }
+      }
+    },
+    {
+      "id": "hiddenbar",
+      "name": "Hidden Bar",
+      "category": "Utilities",
+      "description": "Ultra-light menu bar utility.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "hiddenbar"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "hiddenbar"
+          ]
+        }
+      }
+    },
+    {
+      "id": "netnewswire",
+      "name": "NetNewsWire",
+      "category": "Media",
+      "description": "Free and open-source RSS reader.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "netnewswire"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "netnewswire"
+          ]
+        }
+      }
+    },
+    {
+      "id": "mpv",
+      "name": "mpv",
+      "category": "Media",
+      "description": "Cross-platform media player.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "mpv"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "mpv"
+          ]
+        }
+      }
+    },
+    {
+      "id": "termius",
+      "name": "Termius",
+      "category": "Development",
+      "description": "SSH client for desktop and mobile.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "termius"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "termius"
+          ]
+        }
+      }
+    },
+    {
+      "id": "keepingyouawake",
+      "name": "KeepingYouAwake",
+      "category": "Utilities",
+      "description": "Prevents your Mac from going to sleep.",
+      "platforms": {
+        "darwin": {
+          "pm": "brew",
+          "args": [
+            "install",
+            "--cask",
+            "keepingyouawake"
+          ],
+          "uninstallArgs": [
+            "uninstall",
+            "--cask",
+            "keepingyouawake"
+          ]
+        }
+      }
+    }
+  ]
+}
