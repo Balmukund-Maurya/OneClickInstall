@@ -26,6 +26,9 @@
     --radius-sm: 6px;
     --radius-md: 12px;
     --radius-lg: 16px;
+    --bg-button-hover: rgba(255, 255, 255, 0.05);
+    --bg-danger-soft: rgba(239, 68, 68, 0.15);
+    --text-danger: #fca5a5;
 }
 
 [data-theme="light"] {
@@ -57,6 +60,8 @@
     --text-secondary: #334155;
     /* Slate-700 */
     --text-muted: #475569;
+    --bg-button-hover: rgba(0, 0, 0, 0.05);
+    --text-danger: #ef4444;
     /* Slate-600 */
 }
 
@@ -171,7 +176,7 @@ body {
 
 .btn:hover {
     color: var(--text-main);
-    background: rgba(255, 255, 255, 0.03);
+    background: var(--bg-button-hover);
 }
 
 .btn-primary {
@@ -194,7 +199,7 @@ body {
 }
 
 .btn-outline:hover:not(:disabled) {
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--bg-button-hover);
     border-color: var(--border-highlight);
 }
 
@@ -366,7 +371,7 @@ body {
 
 .progress-container {
     height: 4px;
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--bg-button-hover);
     border-radius: 2px;
     margin-top: 1rem;
     overflow: hidden;
@@ -397,7 +402,7 @@ body {
     transition: all 0.2s ease;
     padding: 4px;
     border-radius: 6px;
-    background: rgba(255, 255, 255, 0.03);
+    background: var(--bg-button-hover);
     color: var(--error) !important;
 }
 
@@ -437,7 +442,7 @@ body {
     font-size: 0.65rem;
     padding: 0.25rem 0.6rem;
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--bg-button-hover);
     color: var(--text-muted);
     font-weight: 600;
     text-transform: uppercase;
@@ -671,7 +676,7 @@ body {
     align-items: center;
     justify-content: center;
     transition: all 0.2s;
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--bg-button-hover);
 }
 
 .list-row.selected .checkbox,
@@ -707,7 +712,7 @@ body {
 }
 
 .btn-icon:hover {
-    background: rgba(255, 255, 255, 0.05);
+    background: var(--bg-button-hover);
     color: var(--text-main);
 }
 

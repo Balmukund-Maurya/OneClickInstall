@@ -461,7 +461,7 @@ function App() {
             style={{
               cursor: "pointer",
               border: "none",
-              background: "rgba(255,255,255,0.03)",
+              background: "var(--bg-button-hover)",
               justifyContent: isCollapsed ? "center" : "flex-start",
               padding: isCollapsed ? "10px" : "0.75rem 1rem",
               width: isCollapsed ? "40px" : "100%",
@@ -503,7 +503,7 @@ function App() {
             }
             style={{
               borderColor: "rgba(239, 68, 68, 0.5)",
-              color: "#fca5a5",
+              color: "var(--text-danger)",
               justifyContent: isCollapsed ? "center" : "flex-start",
               padding: isCollapsed ? "10px" : "0.75rem 1rem",
               width: isCollapsed ? "40px" : "100%",
@@ -534,7 +534,7 @@ function App() {
             onClick={handleStopAll}
             style={{
               marginTop: isCollapsed ? "auto" : 0,
-              background: "rgba(239, 68, 68, 0.15)",
+              background: "var(--bg-danger-soft)",
               color: "#ef4444",
               border: "1px solid #ef4444",
               fontWeight: "bold",
@@ -572,7 +572,7 @@ function App() {
               style={{
                 background: "none",
                 border: "none",
-                color: "white",
+                color: "var(--text-main)",
                 fontSize: "0.9rem",
                 outline: "none",
                 width: "100%",
