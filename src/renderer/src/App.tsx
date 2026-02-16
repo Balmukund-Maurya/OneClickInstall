@@ -456,12 +456,13 @@ function App() {
         >
           {!isCollapsed && <p className="sidebar-title">System Health</p>}
           <div
-            className="btn btn-outline"
+            className="btn"
             onClick={handleShowSystemInfo}
             style={{
               cursor: "pointer",
+              background: "transparent",
               border: "none",
-              background: "rgba(255,255,255,0.03)",
+              color: "var(--text-muted)",
               justifyContent: isCollapsed ? "center" : "flex-start",
               padding: isCollapsed ? "10px" : "0.75rem 1rem",
               width: isCollapsed ? "40px" : "100%",
@@ -982,14 +983,15 @@ function App() {
         >
           <div
             style={{
-              background: "#1e293b",
-              border: "1px solid rgba(255,255,255,0.1)",
+              background: "var(--bg-card)",
+              border: "1px solid var(--border)",
               padding: "2rem",
               borderRadius: "12px",
               width: "400px",
               boxShadow: "0 20px 50px rgba(0,0,0,0.5)",
               position: "relative",
               textAlign: "center",
+              color: "var(--text-main)",
             }}
             onClick={(e) => e.stopPropagation()}
           >
@@ -998,18 +1000,18 @@ function App() {
               style={{
                 marginBottom: "0.5rem",
                 fontSize: "1.5rem",
-                color: "white",
+                color: "var(--text-main)",
               }}
             >
               OneClickInstall
             </h2>
-            <div style={{ color: "#94a3b8", marginBottom: "1.5rem" }}>
+            <div style={{ color: "var(--text-muted)", marginBottom: "1.5rem" }}>
               Universal Software Deployment Platform
             </div>
 
             <div
               style={{
-                background: "rgba(255,255,255,0.03)",
+                background: "var(--bg-card-hover)",
                 padding: "1rem",
                 borderRadius: "8px",
                 marginBottom: "1.5rem",
@@ -1018,7 +1020,7 @@ function App() {
               <div
                 style={{
                   fontSize: "0.75rem",
-                  color: "#94a3b8",
+                  color: "var(--text-muted)",
                   textTransform: "uppercase",
                   marginBottom: "4px",
                 }}
@@ -1029,29 +1031,24 @@ function App() {
                 style={{
                   fontWeight: "bold",
                   fontSize: "1.2rem",
-                  color: "white",
+                  color: "var(--text-main)",
                 }}
               >
                 {appVersion}
               </div>
             </div>
 
-            <div style={{ fontSize: "0.8rem", color: "#64748b" }}>
+            <div style={{ fontSize: "0.8rem", color: "var(--text-muted)" }}>
               &copy; 2026 OneClickInstall Team
             </div>
 
             <button
               onClick={() => setShowAppInfoModal(false)}
+              className="btn btn-primary"
               style={{
                 width: "100%",
                 marginTop: "1.5rem",
-                padding: "0.75rem",
-                background: "#3b82f6",
-                color: "white",
-                border: "none",
-                borderRadius: "8px",
-                fontWeight: "bold",
-                cursor: "pointer",
+                justifyContent: "center",
               }}
             >
               Close
@@ -1079,13 +1076,14 @@ function App() {
         >
           <div
             style={{
-              background: "#1e293b",
-              border: "1px solid rgba(255,255,255,0.1)",
+              background: "var(--bg-card)",
+              border: "1px solid var(--border)",
               padding: "2rem",
               borderRadius: "12px",
               width: "500px",
               boxShadow: "0 20px 50px rgba(0,0,0,0.5)",
               position: "relative",
+              color: "var(--text-main)",
             }}
             onClick={(e) => e.stopPropagation()}
           >
@@ -1095,6 +1093,7 @@ function App() {
                 display: "flex",
                 alignItems: "center",
                 gap: "10px",
+                color: "var(--text-main)",
               }}
             >
               <Cpu size={24} color="#3b82f6" />
@@ -1110,7 +1109,7 @@ function App() {
             >
               <div
                 style={{
-                  background: "rgba(255,255,255,0.03)",
+                  background: "var(--bg-card-hover)",
                   padding: "1rem",
                   borderRadius: "8px",
                 }}
@@ -1118,7 +1117,7 @@ function App() {
                 <div
                   style={{
                     fontSize: "0.75rem",
-                    color: "#94a3b8",
+                    color: "var(--text-muted)",
                     textTransform: "uppercase",
                     marginBottom: "4px",
                   }}
@@ -1129,7 +1128,7 @@ function App() {
               </div>
               <div
                 style={{
-                  background: "rgba(255,255,255,0.03)",
+                  background: "var(--bg-card-hover)",
                   padding: "1rem",
                   borderRadius: "8px",
                 }}
@@ -1137,7 +1136,7 @@ function App() {
                 <div
                   style={{
                     fontSize: "0.75rem",
-                    color: "#94a3b8",
+                    color: "var(--text-muted)",
                     textTransform: "uppercase",
                     marginBottom: "4px",
                   }}
@@ -1148,7 +1147,7 @@ function App() {
               </div>
               <div
                 style={{
-                  background: "rgba(255,255,255,0.03)",
+                  background: "var(--bg-card-hover)",
                   padding: "1rem",
                   borderRadius: "8px",
                 }}
@@ -1156,7 +1155,7 @@ function App() {
                 <div
                   style={{
                     fontSize: "0.75rem",
-                    color: "#94a3b8",
+                    color: "var(--text-muted)",
                     textTransform: "uppercase",
                     marginBottom: "4px",
                   }}
@@ -1167,7 +1166,7 @@ function App() {
               </div>
               <div
                 style={{
-                  background: "rgba(255,255,255,0.03)",
+                  background: "var(--bg-card-hover)",
                   padding: "1rem",
                   borderRadius: "8px",
                 }}
@@ -1175,7 +1174,7 @@ function App() {
                 <div
                   style={{
                     fontSize: "0.75rem",
-                    color: "#94a3b8",
+                    color: "var(--text-muted)",
                     textTransform: "uppercase",
                     marginBottom: "4px",
                   }}
@@ -1186,7 +1185,7 @@ function App() {
               </div>
               <div
                 style={{
-                  background: "rgba(255,255,255,0.03)",
+                  background: "var(--bg-card-hover)",
                   padding: "1rem",
                   borderRadius: "8px",
                   gridColumn: "span 2",
@@ -1195,7 +1194,7 @@ function App() {
                 <div
                   style={{
                     fontSize: "0.75rem",
-                    color: "#94a3b8",
+                    color: "var(--text-muted)",
                     textTransform: "uppercase",
                     marginBottom: "4px",
                   }}

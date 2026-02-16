@@ -137,6 +137,14 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+[data-theme="light"] .logo-section h1 {
+    background: linear-gradient(135deg, #2563eb, #059669);
+    /* Darker Blue to Darker Green */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .sidebar-title {
     font-size: 0.7rem;
     font-weight: 600;
@@ -178,7 +186,7 @@ body {
     background: var(--primary);
     color: white !important;
     box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.39);
-    border: none;
+    border: 1px solid transparent;
 }
 
 .btn-primary:hover:not(:disabled) {
@@ -207,7 +215,7 @@ body {
 .btn-danger {
     background: var(--error);
     color: white !important;
-    border: none;
+    border: 1px solid transparent;
     box-shadow: 0 4px 14px 0 rgba(239, 68, 68, 0.39);
 }
 
@@ -269,9 +277,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--bg-header);
+    background: transparent;
     backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--border);
+    border-bottom: none;
+    /* Removed border */
     flex-shrink: 0;
     position: relative;
     z-index: 5;
@@ -290,12 +299,13 @@ body {
     height: 54px;
     display: flex;
     gap: 2rem;
-    border-bottom: 1px solid var(--border);
+    border-bottom: none;
+    /* Removed border */
     overflow-x: auto;
     white-space: nowrap;
     align-items: center;
     flex-shrink: 0;
-    background: rgba(15, 23, 42, 0.3);
+    background: transparent;
 
     scrollbar-width: none;
     -ms-overflow-style: none;
