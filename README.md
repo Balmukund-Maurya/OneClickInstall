@@ -1,6 +1,6 @@
-# OneClickInstall 🚀
+# OneClickInstall
 
-[![Maintained with ❤️](https://img.shields.io/badge/Maintained%20with-%E2%9D%A4%EF%B8%8F-blue.svg)](https://github.com/Balmukund-Maurya/OneClickInstall)
+[![Maintained with Love](https://img.shields.io/badge/Maintained%20with-Love-blue.svg)](https://github.com/Balmukund-Maurya/OneClickInstall)
 [![Electron](https://img.shields.io/badge/Electron-33.0.0-47848F.svg?logo=electron)](https://www.electronjs.org/)
 [![React](https://img.shields.io/badge/React-18.0.0-61DAFB.svg?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6.svg?logo=typescript)](https://www.typescriptlang.org/)
@@ -12,7 +12,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 - **Bulk Installation**: Select multiple apps (VS Code, Docker, Node.js, etc.) and install them all at once.
 - **Cross-Platform**: Seamlessly works on macOS and Windows with native package managers (`brew` & `winget`).
@@ -32,7 +32,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React, TypeScript, Vite, CSS Modules (Custom Design System)
 - **Backend/Main Process**: Electron, Node.js
@@ -43,7 +43,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -78,7 +78,7 @@ This will launch the Electron window and start the Vite dev server.
 
 ---
 
-## 📦 Building for Production
+## Building for Production
 
 To create a distributable executable/installer for your OS:
 
@@ -98,7 +98,7 @@ The output files will be located in the `dist/` directory.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 OneClickInstall/
@@ -113,7 +113,7 @@ OneClickInstall/
 │       ├── src/
 │       │   ├── components/ # Reusable UI components
 │       │   ├── App.tsx     # Main application logic
-│       │   └── index.css   # Global styles & Theme variables
+│       │   ├── index.css   # Global styles & Theme variables
 │       └── index.html
 ├── resources/              # Static assets (icons, images)
 ├── electron.vite.config.ts # Vite configuration
@@ -122,7 +122,7 @@ OneClickInstall/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you have ideas for new features, bug fixes, or catalog additions, feel free to open an issue or submit a pull request.
 
@@ -134,10 +134,10 @@ Contributions are welcome! If you have ideas for new features, bug fixes, or cat
 
 ---
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-Built with 💙 by **Balmukund Maurya**
+Built by **Balmukund Maurya**
