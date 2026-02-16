@@ -461,7 +461,7 @@ function App() {
             style={{
               cursor: "pointer",
               border: "none",
-              background: "var(--bg-button-hover)",
+              background: "rgba(255,255,255,0.03)",
               justifyContent: isCollapsed ? "center" : "flex-start",
               padding: isCollapsed ? "10px" : "0.75rem 1rem",
               width: isCollapsed ? "40px" : "100%",
@@ -496,14 +496,12 @@ function App() {
             )}
           </button>
           <button
-            className="btn btn-outline"
+            className="btn btn-danger"
             onClick={handleUninstallSelection}
             disabled={
               Array.from(selected).filter((id) => inventory[id]).length === 0
             }
             style={{
-              borderColor: "rgba(239, 68, 68, 0.5)",
-              color: "var(--text-danger)",
               justifyContent: isCollapsed ? "center" : "flex-start",
               padding: isCollapsed ? "10px" : "0.75rem 1rem",
               width: isCollapsed ? "40px" : "100%",
@@ -534,7 +532,7 @@ function App() {
             onClick={handleStopAll}
             style={{
               marginTop: isCollapsed ? "auto" : 0,
-              background: "var(--bg-danger-soft)",
+              background: "rgba(239, 68, 68, 0.15)",
               color: "#ef4444",
               border: "1px solid #ef4444",
               fontWeight: "bold",
