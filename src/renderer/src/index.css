@@ -509,13 +509,61 @@ body {
     line-height: 1.5;
 }
 
+/* Log Colors - Default Dark Mode */
+--log-error: #f87171;
+--log-success: #4ade80;
+--log-warning: #fbbf24;
+--log-info: #60a5fa;
+--bg-console: rgba(10, 14, 23, 0.98);
+--border-console: var(--border);
+}
+
+[data-theme="light"] {
+    /* ... existing overrides ... */
+
+    /* Log Colors - Light Mode (Slightly darker for readability on light bg if needed, but standard colors usually work. Let's tweak if needed) */
+    --log-error: #dc2626;
+    --log-success: #16a34a;
+    --log-warning: #d97706;
+    --log-info: #2563eb;
+    --bg-console: var(--bg-card);
+    /* Use card background for console in light mode */
+    --border-console: var(--border);
+}
+
+/* ... existing styles ... */
+
 .console-panel {
     height: 220px;
-    background: rgba(10, 14, 23, 0.98);
-    /* Darker, more opaque */
-    border-top: 1px solid var(--border);
+    background: var(--bg-console);
+    border-top: 1px solid var(--border-console);
     display: flex;
     flex-direction: column;
+}
+
+.console-header {
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1);
+    /* Slightly dark overlay works for both, or use variable */
+    border-bottom: 1px solid var(--border-console);
+}
+
+[data-theme="light"] .console-header {
+    background: var(--bg-card-hover);
+}
+
+.console-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem 1.5rem;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: var(--text-muted);
+    /* Adaptive text color */
 }
 
 .console-header {

@@ -851,7 +851,7 @@ function App() {
           </div>
           <div className="console-body">
             {logs.length === 0 && (
-              <div style={{ color: "#475569" }}>
+              <div style={{ color: "var(--text-muted)" }}>
                 Terminal ready. Awaiting deployment...
               </div>
             )}
@@ -863,12 +863,12 @@ function App() {
                   style={{
                     color:
                       log.type === "error"
-                        ? "#f87171"
+                        ? "var(--log-error)"
                         : log.type === "success"
-                          ? "#4ade80"
+                          ? "var(--log-success)"
                           : log.type === "warning"
-                            ? "#fbbf24"
-                            : "#60a5fa",
+                            ? "var(--log-warning)"
+                            : "var(--log-info)",
                   }}
                 >
                   {log.text}
@@ -884,16 +884,13 @@ function App() {
                           }
                         });
                     }}
+                    className="btn btn-primary"
                     style={{
                       marginLeft: "10px",
                       padding: "4px 12px",
-                      background: "#3b82f6",
-                      color: "white",
-                      border: "none",
-                      borderRadius: "4px",
-                      cursor: "pointer",
+                      height: "auto",
                       fontSize: "0.75rem",
-                      fontWeight: "bold",
+                      width: "auto",
                     }}
                   >
                     🔄 Retry
@@ -905,12 +902,13 @@ function App() {
               <div
                 className="log-line"
                 style={{
-                  color: "var(--color-accent)",
+                  color: "var(--accent)",
                   fontWeight: "bold",
                   marginTop: "1rem",
                   background: "rgba(255, 200, 0, 0.1)",
                   padding: "10px",
                   borderRadius: "4px",
+                  border: "1px solid rgba(255, 200, 0, 0.2)",
                 }}
               >
                 <span>{inputRequest.prompt}</span>
@@ -941,9 +939,9 @@ function App() {
                     placeholder="Enter password..."
                     autoFocus
                     style={{
-                      background: "rgba(0,0,0,0.3)",
-                      border: "1px solid var(--border-color)",
-                      color: "white",
+                      background: "var(--bg-card)",
+                      border: "1px solid var(--border)",
+                      color: "var(--text-main)",
                       padding: "4px 8px",
                       borderRadius: "4px",
                       flex: 1,
