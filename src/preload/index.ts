@@ -43,8 +43,8 @@ const api = {
     getSystemDetails: () => ipcRenderer.invoke('get-system-details'),
     getAppVersion: () => ipcRenderer.invoke('get-app-version'),
     getUIState: () => ipcRenderer.invoke('get-ui-state'),
-    saveUIState: (sidebarWidth: number, isCollapsed: boolean, viewMode?: string) =>
-        ipcRenderer.invoke('save-ui-state', sidebarWidth, isCollapsed, viewMode),
+    saveUIState: (sidebarWidth: number, isCollapsed: boolean, viewMode?: string, theme?: string) =>
+        ipcRenderer.invoke('save-ui-state', sidebarWidth, isCollapsed, viewMode, theme),
 }
 
 if (process.contextIsolated) {

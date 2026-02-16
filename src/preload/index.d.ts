@@ -24,8 +24,8 @@ declare global {
             retryInstallation: (id: string) => Promise<{ success: boolean; error?: string }>
             getSystemDetails: () => Promise<any>
             getAppVersion: () => Promise<string>
-            getUIState: () => Promise<{ sidebarWidth: number; isCollapsed: boolean; viewMode: string }>
-            saveUIState: (sidebarWidth: number, isCollapsed: boolean, viewMode?: string) => Promise<void>
+            getUIState: () => Promise<{ sidebarWidth: number; isCollapsed: boolean; viewMode: string; theme: string }>
+            saveUIState: (sidebarWidth: number, isCollapsed: boolean, viewMode?: string, theme?: string) => Promise<void>
         }
     }
 }

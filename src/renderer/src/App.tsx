@@ -8,6 +8,8 @@ import {
   Cpu,
   ShieldCheck,
   Search,
+  Sun,
+  Moon,
 } from "lucide-react";
 
 interface Software {
@@ -46,6 +48,7 @@ function App() {
   } | null>(null);
   const [passwordInput, setPasswordInput] = useState("");
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
+  const [theme, setTheme] = useState<string>("dark");
 
   // System Info Modal State
   const [systemInfo, setSystemInfo] = useState<any>(null);
@@ -64,6 +67,16 @@ function App() {
   const consoleEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    const newTheme = theme === "dark" ? "light" : "dark";
+    setTheme(newTheme);
+    window.api.saveUIState(sidebarWidth, isCollapsed, viewMode, newTheme);
+  };
+
+  useEffect(() => {
     const init = async () => {
       const p = await window.api.getPlatform();
       setPlatform(p === "darwin" ? "macOS" : "Windows");
@@ -73,6 +86,9 @@ function App() {
       setSidebarWidth(uiState.sidebarWidth);
       setIsCollapsed(uiState.isCollapsed);
       if (uiState.viewMode) setViewMode(uiState.viewMode as "grid" | "list");
+      if (uiState.theme) {
+        setTheme(uiState.theme);
+      }
 
       const s = await window.api.getSoftware();
       setSoftware(s);
@@ -578,6 +594,28 @@ function App() {
           <div className="badge">{selected.size} Selected</div>
 
           <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center', marginLeft: '1rem' }}>
+            <button
+              onClick={toggleTheme}
+              style={{
+                background: "none",
+                border: "none",
+                color: "var(--text-secondary)",
+                cursor: "pointer",
+                padding: "8px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                opacity: 0.8,
+                transition: "opacity 0.2s"
+              }}
+              title={`Switch to ${theme === 'dark' ? 'Light' : 'Dark'} Mode`}
+              onMouseEnter={(e) => (e.currentTarget.style.opacity = "1")}
+              onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.8")}
+            >
+              {theme === "dark" ? <Sun size={20} /> : <Moon size={20} />}
+            </button>
+
+            <div style={{ width: 1, height: 24, background: 'var(--border)', margin: '0 4px' }}></div>
             <button
               className={`btn-icon ${viewMode === 'grid' ? 'active' : ''}`}
               onClick={() => { setViewMode('grid'); window.api.saveUIState(sidebarWidth, isCollapsed, 'grid'); }}

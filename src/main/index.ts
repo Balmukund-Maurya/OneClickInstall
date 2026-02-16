@@ -101,9 +101,9 @@ app.whenReady().then(async () => {
         return getUIState()
     })
 
-    ipcMain.handle('save-ui-state', async (_, sidebarWidth: number, isCollapsed: boolean) => {
+    ipcMain.handle('save-ui-state', async (_, sidebarWidth: number, isCollapsed: boolean, viewMode?: string, theme?: string) => {
         const { saveUIState } = await import('./store-manager')
-        saveUIState(sidebarWidth, isCollapsed)
+        saveUIState(sidebarWidth, isCollapsed, viewMode, theme)
     })
 
     ipcMain.handle('export-manifest', async (_, softwareIds: string[]) => {
