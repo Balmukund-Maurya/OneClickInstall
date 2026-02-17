@@ -993,7 +993,6 @@ function App() {
             }}
             onClick={(e) => e.stopPropagation()}
           >
-            <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>🚀</div>
             <h2
               style={{
                 marginBottom: "0.5rem",
